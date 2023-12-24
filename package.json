@@ -1,0 +1,21 @@
+{
+  "name": "alex-iv-theme",
+  "displayName": "Alex IV Theme",
+  "description": "Dope theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Alex IV Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alex-iv-color-theme.json"
+      }
+    ]
+  }
+}
